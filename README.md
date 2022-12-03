@@ -35,3 +35,23 @@ Secondary
 - Right arrow: Roll right
 - Right Control: Jump
 - Numpad 0: Stop rolling (halts all movement)
+
+
+## HW2
+### Playing the Game
+The game packaged for development is too large for GitHub.
+
+To play the game in UE5 through the VR preview on Oculus Quest 2, connect headset to computer via link cable, open the project, and run in VR preview.
+
+This is a simple VR game where the goal is to navigate subsequent maze-like rooms in order to reach the teleporter at the end so you can escape from the testing facility you are trapped in. You will need to find a number of blue, glowing data cubes (keys) and enter them into the red scanners on each door to open them and move on to the next section. The doors display the number of cubes still needed to open them. Players can also play around with some of the obstacles, such as cubes making up certain walls/barriers, balls, and decoy keys.
+
+Players will navigate using the joysticks on the VR motion controllers. Right will allow them to trace a path to where they wish to move to via teleport and the left will turn the camera via snapping if the player can't turn their head fully in the direction they wish to face.
+
+During gameplay, players can press the home button on the left VR motion controller to bring up a small UI menu on the controller to either restart the game or to quit entirely, selecting which option using the joystick and trigger. Pressing the home key again will close the menu. Additionally, the player can approach the metal bed in the starting room to immediately quit the game.
+
+### Controls
+- Right joystick: trace teleport jump on movement and teleport on release (if valid teleport)
+- Left joystick: snap-turn camera left/right. In UI menu, moves cursor to select options
+- Left home button: Brings up UI menu attached to the VR motion controller to restart game or to quit
+- Left/Right side bumpers: Grab objects (when VR motion controller is overlapping and object is grabbable)
+- Left/Right triggers: Select/click when in the UI menu to restart or quit
